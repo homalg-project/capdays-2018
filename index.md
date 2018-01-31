@@ -7,9 +7,29 @@ title: Home
 
 ## {{ site.description }}<br> {{ site.location }}
 
-TODO: Beschreibung
+[CAP (Categories, Algorithms, Programming)](http://homalg-project.github.io/CAP_project) 
+is a software project for constructive category theory written in [GAP](http://www.gap-system.org).
+It facilitates both the realization of specific instances of categories and the implementation of generic categorical algorithms.
 
-Program information will continuously updated on [the program page]({{ site.baseurl }}/program).
+The workshop is split in three parts:
+
+* On the first day, participants can give talks about their work, and how they have or plan to
+  incorporate CAP in their work. The first talk of the day will be an overview about the CAP project
+  and some of its capabilities.
+
+* On the second day it is possible to participate in a CAP tutorial, where the first steps
+  of organizing code with CAP and implementing a category in CAP will be explained, along
+  with examples and exercises. Furthermore, available categories in CAP will be demonstrated.
+
+* On the third and fourth day there will be a coding sprint. Participants are welcome
+  to form groups and work on projects of their interest. Help for using CAP and implementing
+  categories in CAP is available all the time.
+
+The workshop aims at mathematicians who want to learn about the CAP project,
+categorical programming, and structurizing implementations in a categorical way.
+The workshop is suitable for both GAP newcomers and veteran GAP programmers.
+
+Program information will be continuously updated on [the program page]({{ site.baseurl }}/program).
 
 ## Registering and stay
 
