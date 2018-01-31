@@ -1,0 +1,111 @@
+---
+layout: page
+title: Registration
+registration_state: notyet
+form_api_token: 1a2b0f0bd444520d79687cb909d6d482
+---
+
+{% case page.registration_state %}
+{% when 'notyet' %}
+<p class="message">Registration will be open starting from the 5th of February, 2018</p>
+
+{% when 'closed' %}
+<p class="message">Registration is closed.</p>
+
+{% when 'open' %}
+<p class="message">Registration is open.</p>
+
+<p>
+You can use this form to register for the {{ site.title }}.
+</p>
+
+<p>
+If you any questions
+regarding registration or in general, feel free to
+<a href="mailto:gutsche@mathematik.uni-siegen.de; sebastian.posur@uni-siegen.de">contact us via email</a>.
+</p>
+<form action="http://getsimpleform.com/messages?form_api_token={{page.form_api_token}}" method="post">
+
+<div class="form-field">
+  <div class="form-field-title">
+    <label for="name">Name <span class="form-field-req">*</span></label>
+  </div>
+  <input type="text" size="60" maxlength="80" name="name" autofocus required />
+  <!-- autofocus with fallback for older browsers -->
+  <script>
+    if (!("autofocus" in document.createElement("input"))) {
+      document.getElementById("q").focus();
+    }
+  </script>
+</div>
+
+<div class="form-field">
+  <div class="form-field-title">
+    <label for="email">Email <span class="form-field-req">*</span></label>
+  </div>
+  <input type="email" size="60" maxlength="80" name="email" required />
+</div>
+
+<div class="form-field">
+  <div class="form-field-title">
+    <label for="affiliation">Affiliation</label>
+  </div>
+  <div class="form-field-description">
+    Please enter the name of your home university, institute etc., if any. 
+  </div>
+  <input type="text" size="60" maxlength="80" name="affiliation" />
+</div>
+
+<div class="form-field">
+  <div class="form-field-title">
+    <label for="arrival_date">Arrival date <span class="form-field-req">*</span></label> 
+  </div>
+  <div class="form-field-description">
+    Please select the day of arrival.
+  </div>
+  <select name="arrival.date" id="arrival_date" required>
+    <option value="Before Monday 27 August">Before Monday 27 August</option>
+    <option value="Monday 27 August" selected="selected">Monday 27 August</option>
+    <option value="Tuesday 28 August">Tuesday 28 August</option>
+    <option value=">Wednesday 29 August">Wednesday 29 August</option>
+    <option value="Thursday 30 August">Thursday 30 August</option>
+    <option value="Friday 31 August">Friday 31 August</option>
+  </select>
+</div>
+
+<div class="form-field">
+  <div class="form-field-title">
+    <label for="departure_date">Departure date <span class="form-field-req">*</span></label> 
+  </div>
+  <div class="form-field-description">
+    Please select the day of departure.
+  </div>
+  <select name="departure.date" id="departure_date" required>
+    <option value="Tuesday 28 August">Tuesday 28 August</option>
+    <option value=">Wednesday 29 August">Wednesday 29 August</option>
+    <option value="Thursday 30 August">Thursday 30 August</option>
+    <option value="Friday 31 August">Friday 31 August</option>
+    <option value="Saturday 1 September" selected="selected">Saturday 1 September</option>
+    <option value="After Saturday 1 September">After Saturday 1 September</option>
+  </select>
+</div>
+
+<div class="form-field">
+  <div class="form-field-title">
+    <label for="presentation">Comments</label>
+  </div>
+  <div class="form-field-description">
+    Here you any comments, questions or wishes
+    regarding the workshop.  
+  </div>
+  <textarea name="comments" rows="10" cols="60"></textarea>
+</div>
+
+<input type='hidden' name='redirect_to' value='{{ site.url }}{{ site.baseurl }}/thank-you' />
+
+<div class="form-field">
+  <input type="submit" value="Register!" />
+</div>
+
+</form>
+{% endcase %}
