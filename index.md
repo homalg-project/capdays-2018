@@ -15,7 +15,8 @@ The workshop is split in three parts:
 
 * On the first day, participants can give talks about their work, and how they have or plan to
   incorporate CAP in their work. The first talk of the day will be an overview about the CAP project
-  and some of its capabilities.
+  and some of its capabilities. If you want to give a talk, please mention it in the comments section
+  at [the registration]({{ site.baseurl }}/registration).
 
 * On the second day it is possible to participate in a CAP tutorial, where the first steps
   of organizing code with CAP and implementing a category in CAP will be explained, along
