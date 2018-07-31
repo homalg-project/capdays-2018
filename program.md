@@ -5,49 +5,56 @@ title: Program
 
 
 ## Workshop
-* Start: Tuesday August 28th 2018 at 10:00
+* Start: Tuesday August 28th 2018 at 09:50
 * Finish: Friday August 31st 2018 15:30
 
-### Tuesday: CAP Symposium with CAP related talks
+### Tuesday: CAP Symposium with CAP related talks D-212
 
-* 10:15 - 10:30: Welcome
-* 10:30 - 11:50: Gutsche/Posur: Introduction to CAP
+* 09:50 - 10:00: Welcome
+* 10:00 - 12:00: Gutsche/Posur: *Introduction to CAP: Constructive category theory and applications*<br/>
+> **Abstract:** In this talk we explain the concept of constructive category theory
+> and its implementation in our software project
+> CAP - Categories, algorithms, programming.
+> Furthermore, we show the benefits of CAP's framework
+> for constructive category theory
+> by demonstrating
+> some applications to homological algebra:
+> diagram chasing via generalized morphisms
+> and computing the purity filtration via spectral sequences.
 * 12:00 - 13:00: Lunch
-* 13:00 - 13:40: Skartsæterhagen: TBA
-* 13:50 - 14:30: Bies: TBA
-* 14:40 - 15:20: Juteau: TBA
-* 15:20 - 16:00: Coffee and cake
-* 16:00 - 16:40: Zickgraf: TBA
-* 16:50 - 17:30: TBA
+* 13:00 - 13:40: Skartsæterhagen: *CAP in QPA*
+* 14:00 - 14:40: Bies: *CAP, machine learning and string theory*
+* 15:00 - 15:30: Coffee and cake
+* 15:30 - 16:10: Juteau: *TBA*
+* 16:30 - 17:10: Saleh: *Implementation of Quillen model categories*
 
 ### Wednesday: CAP Tutorial & Coding Sprint
 
-#### CAP Tutorial in Room D-221:
-* 10:00 - 13:00: First steps in CAP: Implementing a basic group and vector space category
+#### CAP Tutorial in Room D-212
+
+To prepare your computer for the tutorials, follow the instructions [here]({{site.baseurl}}/preparation).
+
+* 10:00 - 13:00: *First steps in CAP: Implementing a basic group and vector space category*<br/>
 In this tutorial you will learn how to implement a basic category in CAP.
 We will start by using preexistent data structures for finite groups in GAP to implement a CAP category.
 Afterwards, we will implement the abelian category of finite dimensional vector spaces over a constructive field
 in CAP.
 
-* 14:00 - 17:00: Advanced: Computing with generalized morphisms, implementing the snake lemma and computing parts of spectral sequences
-In this tutorial we will use the abelian category of vector spaces we implemented in the morning
-to explore the computational features of CAP and write algorithms in CAP's categorical programming language.
-We will learn about a significant feature of CAP, the generalized morphisms.
-Afterwards, we will learn how to use CAP's categorical programming language and
-the generalized morphisms to implement the snake lemma and compute parts of spectral sequences.
+* 14:00 - 17:00: *Computing with CAP*<br/>
+In this tutorial we will show how to use CAP for (advanced) computations in homological algebra.
+This includes computing with modules in CAP, and using CAP as as a categorical programming language.
 
-#### Coding Sprint in Room D-221
+#### Coding Sprint in Room D-201
 
 * 09:30: Stand-up: projects of the day
 * 17:00: Stand-up: what did we achieve today?
 
-
-### Thursday: Coding Sprint
+### Thursday: Coding Sprint in Room D-212
 
 * 09:30: Stand-up: projects of the day
 * 17:00: Stand-up: what did we achieve today?
 
-### Friday: Coding sprint
+### Friday: Coding sprint in Room D-212
 
 * 09:30: Stand-up: projects of the day
 * 15:00: Stand-up: what did we achieve today?
