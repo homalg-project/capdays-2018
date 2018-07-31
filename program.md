@@ -8,7 +8,7 @@ title: Program
 * Start: Tuesday August 28th 2018 at 09:50
 * Finish: Friday August 31st 2018 15:30
 
-### Tuesday: CAP Symposium with CAP related talks D-212
+### Tuesday: CAP Symposium with CAP related talks in Room D-212
 
 * 09:50 - 10:00: Welcome
 * 10:00 - 12:00: Gutsche/Posur: *Introduction to CAP: Constructive category theory and applications*<br/>
