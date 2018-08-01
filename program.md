@@ -34,15 +34,16 @@ title: Program
 
 To prepare your computer for the tutorials, follow the instructions [here]({{site.baseurl}}/preparation).
 
-* 10:00 - 13:00: *First steps in CAP: Implementing a basic group and vector space category*<br/>
+* 10:00 - 13:00: *Computing with CAP*<br/>
+In this tutorial we will show how to use CAP for (advanced) computations in homological algebra.
+This includes computing with modules in CAP, and using CAP as as a categorical programming language.
+
+
+* 14:00 - 17:00: *Implementing your own category*<br/>
 In this tutorial you will learn how to implement a basic category in CAP.
 We will start by using preexistent data structures for finite groups in GAP to implement a CAP category.
 Afterwards, we will implement the abelian category of finite dimensional vector spaces over a constructive field
 in CAP.
-
-* 14:00 - 17:00: *Computing with CAP*<br/>
-In this tutorial we will show how to use CAP for (advanced) computations in homological algebra.
-This includes computing with modules in CAP, and using CAP as as a categorical programming language.
 
 #### Coding Sprint in Room D-201
 
