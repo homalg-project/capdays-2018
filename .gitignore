@@ -9,7 +9,7 @@ docker-compose.yml
 *swp
 *~
 *.backup
-includebib.tex
+*includebib.tex
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
