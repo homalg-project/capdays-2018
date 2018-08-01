@@ -1,1 +1,6 @@
 _site
+materials/session01/doc
+.jekyll-metadata
+Gemfile
+Gemfile.lock
+docker-compose.yml
