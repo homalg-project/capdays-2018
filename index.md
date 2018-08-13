@@ -45,3 +45,6 @@ If you have questions or suggestions, please contact the organizers:
 * [Sebastian Gutsche](mailto:gutsche@mathematik.uni-siegen.de)
 * [Sebastian Posur](mailto:sebastian.posur@uni-siegen.de)
 
+## Sponsors
+<img style="float:left;width:30%;margin-top:5px;margin-right:20px;" src="{{ site.baseurl }}/public/TRR195_logo.png"/>
+This workshop is supported by [SFB-TRR 195](https://www.computeralgebra.de/sfb/) – Symbolic Tools in Mathematics and their Application.
