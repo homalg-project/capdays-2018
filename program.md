@@ -24,6 +24,20 @@ title: Program
 * 12:00 - 13:00: Lunch
 * 13:00 - 13:40: Skartsæterhagen: *CAP in QPA*
 * 14:00 - 14:40: Bies: *CAP, machine learning and string theory*
+> **Abstract:** The holy grail of *string theory* is to prove or disprove that a *string vacuum* furnishes a description of the
+> physical universe that we are living in. A minimalistic check to tell if a *string vacuum* could match the
+> experimental results from particle accelerators is to compute the *massless spectrum*. For a special class
+> of *string vacua* -- the so-called *F-theory vacua* -- I will explain that this eventually leads to *cohomologies of coherent sheaves*.
+> 
+> The functionality of *CAP* extends far beyond *coherent sheaves*. However, the CAP-framework is perfectly suited
+> for a modern implementation of coherent sheaves and their cohomologies.
+> Indeed, much progress has been made on this subject during the last few years.
+> Despite these successes, the required computations test the boundaries of these implementations
+> in terms of computational time and power. To overcome these limitations, we are currently
+> investigating if techniques from *machine learning* can help. I will conclude this talk with results on this work in progress.
+> 
+> (See [pdf]({{ site.baseurl }}/public/Abstract_Bies.pdf) for theoretical background)
+
 * 15:00 - 15:30: Coffee and cake
 * 15:30 - 16:10: Juteau: *TBA*
 * 16:30 - 17:10: Saleh: *Implementation of Quillen model categories*
