@@ -49,7 +49,11 @@ title: Program
 > (See [pdf]({{ site.baseurl }}/public/Abstract_Bies.pdf) for theoretical background)
 
 * 15:00 - 15:30: Coffee and cake
-* 15:30 - 16:10: Juteau: *TBA*
+* 15:30 - 16:10: Juteau: *Motives, algorithms and programming*
+> **Abstract:** Following Francis Brown, I will explain why questions in number theory
+> (irrationality of zeta values) make it desirable to be able to compute some mixed Tate
+> motives of moduli spaces. Then I will explain an algorithm devised by Clément Dupont
+> in his PhD thesis for that purpose, and its implementation in the package MotivesForBiarrangements which uses CAP.
 * 16:30 - 17:10: Saleh: *Implementation of Quillen model categories*
 > **Abstract:** This talk is meant to introduce the Quillen model
 > categories. In short, model categories are used to give an effective
