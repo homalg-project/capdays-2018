@@ -23,6 +23,16 @@ title: Program
 > and computing the purity filtration via spectral sequences.
 * 12:00 - 13:00: Lunch
 * 13:00 - 13:40: Skartsæterhagen: *CAP in QPA*
+> **Abstract:** QPA ("Quivers and Path Algebras") is a GAP package for doing
+> computations related to algebras defined by quivers and relations.  A
+> substantial part of QPA's functionality deals with module categories
+> over such algebras, and certain functors between these categories.
+> The QPA package is currently undergoing a major rewrite where we try
+> to make the code better structured and more consistent.  In the new
+> version of QPA, we use the structures provided by CAP to represent
+> categories and functors, replacing our earlier more ad hoc approaches.
+> In this talk, I will give a brief introduction to QPA and show how we
+> are using CAP in QPA. 
 * 14:00 - 14:40: Bies: *CAP, machine learning and string theory*
 > **Abstract:** The holy grail of *string theory* is to prove or disprove that a *string vacuum* furnishes a description of the
 > physical universe that we are living in. A minimalistic check to tell if a *string vacuum* could match the
