@@ -880,16 +880,16 @@ A morphism in the category of matrices over Q
 
 \tikzstyle{boxpackage} = [rectangle, rounded corners, minimum width=0.7cm, minimum height=0.6cm,text centered, draw=black, font=\footnotesize]
 
-% \CapPkg packages
+%%%% \CapPkg Pakete
 \begin{frame}[fragile]
  \frametitle{\CapPkg packages}
 %  \tikz[remember picture,overlay] \node[opacity=0.3,inner sep=0pt] at (current block.center){\includegraphics[width=\blockwidth,height=\blockheight]{Logo_CAP.jpg}};
   \begin{center}
    \begin{tikzpicture}[node distance=0.7cm,scale=0.6, every node/.style={scale=0.6}]
-    \visible<3->{
+    {
     \node (intrinsic)[boxpackage, fill=\myblue] {IntrinsicCategories};
     }
-    \visible<2->{
+    {
     \node (attribute)[boxpackage, fill=\myblue, below of= intrinsic] {AttributeCategory};
     \node (linearalgebra) [boxpackage, below of=attribute, fill=\myblue] {LinearAlgebra};
     \node (complexes) [boxpackage, below of=linearalgebra, fill=\myblue] {ComplexesAndFilteredObjects};
@@ -899,60 +899,65 @@ A morphism in the category of matrices over Q
     \draw[->,thick] (homalg) |- (complexes);
     \draw[->,thick] (homalg.west) |- (genmor);
     }
-    \visible<1->{
+    {
     \node (cap) [below = of modulepres] {};
     \begin{scope}[on background layer]
-    \node (captotal) at ($(cap)+(1,0)$) [opacity=.40] {\includegraphics[width=1.4\textwidth]{Logo_CAP.jpg}};
+    \node (captotal) at ($(cap)+(1,0)$) [opacity=.20] {\includegraphics[width=1.4\textwidth]{Logo_CAP.jpg}};
     \end{scope}
     }
     
-    \visible<3->{
+    {
     \node (ambient) [boxpackage, left = of attribute, fill=\myblue, xshift = -3em] {CategoriesWithAmbientObjects};
-    \node (m2) [boxpackage, below = of ambient, fill=\myblue] {M2};
+    \node (m2) [boxpackage, below = of ambient, fill=\myblue] {homalg2};
     \draw[->,thick] (m2) -- (ambient);
     \draw[->,thick] (m2) |- (modulepres);
     \draw[->,thick] (ambient) -- (attribute);
     }
     
-    \visible<4->{
+    {
     \node (kamalcomplexes) [boxpackage, left = of cap, fill=\myblue, yshift = -4em] {complex};
     \node (stable) [boxpackage, below of=  kamalcomplexes, fill=\myblue] {StableCategories};
     \node (frobenius) [boxpackage, below of= stable, fill=\myblue] {FrobeniusCategories};
     \node (triangulated) [boxpackage, below of= frobenius, fill=\myblue] {TriangulatedCategories};
     \node (bicomplexes) [boxpackage, left= of kamalcomplexes, fill=\myblue] {Bicomplexes};
     \node (homotopy) [boxpackage, above= of bicomplexes, fill=\myblue, yshift = -2em, xshift = -1em] {HomotopyCategories};
-    \node (qpa2) [boxpackage, right= of triangulated, fill=\myblue] {QPA2};
     \draw[->,thick] (bicomplexes) -- (kamalcomplexes);
     \draw[->,thick] (homotopy.east) |- (kamalcomplexes);
     }
-    \visible<5->{
+    
+    {
+    \node (qpa2) [boxpackage, right= of triangulated, fill=\myblue] {QPA2};
+    }
+    
+    {
     \node (projectivegraded) [boxpackage, right = of cap, fill=\myblue, yshift = -4em] {CategoryOfProjectiveGradedObjects};
     \node (prescat) [boxpackage, below of = projectivegraded, fill=\myblue] {PresentationCategory};
     \node (presbyprojgraded) [boxpackage, below of = prescat, fill=\myblue, xshift = 8em] {PresentationsByProjectiveGradedModules};
     \draw[->,thick] (presbyprojgraded) |- (projectivegraded);
     \draw[->,thick] (presbyprojgraded) |- (prescat);
     }
-    \visible<6->{
-    \node (motives) [boxpackage, below = of m2, fill=\myblue, xshift = -2em] {MotivesForBiArrangements};
-    
-    }
-    \visible<6>{
-        \draw[->,thick] (motives) |- (m2);
-    }
-    \visible<8->{
+    {
+    \node (motives) [boxpackage, below = of m2, fill=\myblue, xshift = -3em] {MotivesForBiArrangements};
+        }
+    {
     \node (dmod) [boxpackage, right = of qpa2, fill=\myblue] {Bialgebroids};
     \draw[->,thick] (dmod) -- (qpa2);
     \node (functorcat) [boxpackage, below = of dmod, fill=\myblue] {FunctorCategories};
     \draw[->,thick] (functorcat) -- (dmod);
-    \node (bmod) [boxpackage, left = of functorcat, fill=\myblue,xshift=-1em] {BMod};
+%     \node (bmod) [boxpackage, left = of functorcat, fill=\myblue,xshift=-1em] {BMod};
     }
-    \visible<10->{
+    {
+    \node (freydcats) [boxpackage, right = of dmod, fill=\myblue, yshift = -3em] {FreydCategories};
+    \draw[->,thick] (freydcats) |- (dmod);
+    }
+    
+    {
     \node (gradedmod) [boxpackage, right = of modulepres, fill=\myblue] {GradedModulePresentations};
     \node (toricsheaves) [boxpackage, below = of gradedmod, fill=\myblue] {ToricSheaves};
     \draw[->,thick] (gradedmod) -- (modulepres);
     \draw[->,thick] (toricsheaves) -- (gradedmod);
     }
-    \visible<9->{
+    {
     \node (actions) [boxpackage, right = of attribute, fill=\myblue] {Actions};
     \node (groups) [boxpackage, right = of linearalgebra, fill=\myblue] {GroupRepresentations};
     \node (intext) [boxpackage, right = of groups, fill=\myblue] {InternalExteriorAlgebra};
@@ -962,17 +967,12 @@ A morphism in the category of matrices over Q
     \draw[->,thick] (intext) |- (actions);
     \draw[->,thick] (intext) |- (complexes);
     }
-%     \visible<10->{
-%     \node (gradedmod) [boxpackage, right = of modulepres, fill=green!20] {GradedModulePresentations};
-%     \node (toricsheaves) [boxpackage, below = of gradedmod, fill=green!20] {ToricSheaves};
-%     \draw[->,thick] (gradedmod) -- (modulepres);
-%     \draw[->,thick] (toricsheaves) -- (gradedmod);
-%     }
     
-%     \draw[->,thick] (homalg) |- (complexes);
+    
     \end{tikzpicture}
   \end{center}
 \end{frame}
+
 
 % Connecting Homomorphism in the Snake Lemma
 
