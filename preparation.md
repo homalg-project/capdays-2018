@@ -16,7 +16,7 @@ For those who are not able to bring their own computer or install GAP on it, we 
 
 It is sufficient to install the packaged version of Singular, via
 {%highlight bash%}
-sudo apt-get install Singular
+sudo apt-get install singular
 {%endhighlight%}
 For other installation options, please visit [the Singular installation page](https://www.singular.uni-kl.de/index.php/singular-download.html).
 
