@@ -98,6 +98,8 @@ Afterwards, we will implement the abelian category of finite dimensional vector 
 in CAP.
   * [GAP file for tutorial](/materials/session01/HandsOnExercise.gi)
 
+* 19:00: **Dinner** at [Trattoria Gianni & Giulia](https://trattoria-gianni-giulia.de/)
+
 #### Coding Sprint in Room D-201
 
 Please add projects and results [to our pad](https://hackmd.io/5Tc-mZgBTfe0tXydBsThdQ)
