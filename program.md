@@ -73,7 +73,9 @@ title: Program
 > 
 > We demonstrate this by constructing in Gap/CAP the derived category of some categories with finite global projective dimension,
 > for example the category of finite left presentations over a polynomial ring or the category of representations of an acyclic
-> quiver. 
+> quiver.
+
+* 19:00: **Dinner** at [Sausalitos Siegen](https://www.sausalitos.de/mein-sausalitos/siegen/) ([Route from Cityhotel](https://www.google.de/maps/dir/Cityhotel+Siegen,+Koblenzer+Stra%C3%9Fe,+Siegen/SAUSALITOS,+Hindenburgstra%C3%9Fe,+Siegen/@50.8725263,8.010923,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x47bc1cf3659f9a71:0x198a80371a54e03a!2m2!1d8.012079!2d50.868547!1m5!1m1!1s0x47bc1c9312589cc9:0x517211a9b31c3fae!2m2!1d8.0192218!2d50.8765058!3e2))
 
 ### Wednesday: CAP Tutorial & Coding Sprint
 
