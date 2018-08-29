@@ -97,6 +97,8 @@ in CAP.
 
 #### Coding Sprint in Room D-201
 
+Please add projects and results [to our pad](https://hackmd.io/5Tc-mZgBTfe0tXydBsThdQ)
+
 * 09:30: Stand-up: projects of the day
 * 17:00: Stand-up: what did we achieve today?
 
