@@ -21,6 +21,8 @@ title: Program
 > some applications to homological algebra:
 > diagram chasing via generalized morphisms
 > and computing the purity filtration via spectral sequences.
+>
+> [Slides](/materials/talk/slides.pdf)
 * 12:00 - 13:00: Lunch
 * 13:00 - 13:40: Skartsæterhagen: *CAP in QPA*
 > **Abstract:** QPA ("Quivers and Path Algebras") is a GAP package for doing
@@ -33,6 +35,8 @@ title: Program
 > categories and functors, replacing our earlier more ad hoc approaches.
 > In this talk, I will give a brief introduction to QPA and show how we
 > are using CAP in QPA. 
+>
+> [Slides](/materials/cap-in-qpa.pdf)
 * 14:00 - 14:40: Bies: *CAP, machine learning and string theory*
 > **Abstract:** The holy grail of *string theory* is to prove or disprove that a *string vacuum* furnishes a description of the
 > physical universe that we are living in. A minimalistic check to tell if a *string vacuum* could match the
@@ -47,13 +51,16 @@ title: Program
 > investigating if techniques from *machine learning* can help. I will conclude this talk with results on this work in progress.
 > 
 > (See [pdf]({{ site.baseurl }}/public/Abstract_Bies.pdf) for theoretical background)
-
+>
+> [Slides](/materials/talk_bies.pdf)
 * 15:00 - 15:30: Coffee and cake
 * 15:30 - 16:10: Juteau: *Motives, algorithms and programming*
 > **Abstract:** Following Francis Brown, I will explain why questions in number theory
 > (irrationality of zeta values) make it desirable to be able to compute some mixed Tate
 > motives of moduli spaces. Then I will explain an algorithm devised by Clément Dupont
 > in his PhD thesis for that purpose, and its implementation in the package MotivesForBiarrangements which uses CAP.
+>
+> [Slides](/materials/periods-siegen.pdf)
 * 16:30 - 17:10: Saleh: *Implementation of Quillen model categories*
 > **Abstract:** This talk is meant to introduce the Quillen model
 > categories. In short, model categories are used to give an effective
