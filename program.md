@@ -86,7 +86,8 @@ To prepare your computer for the tutorials, follow the instructions [here]({{sit
 * 10:00 - 13:00: *Computing with CAP*<br/>
 In this tutorial we will show how to use CAP for (advanced) computations in homological algebra.
 This includes computing with modules in CAP, and using CAP as as a categorical programming language.
-
+  * [Worksheet: Category theory in computer algebra: first steps in CAP](https://github.com/homalg-project/capdays-2018/blob/gh-pages/materials/Abelian%20Categories.ipynb)
+  * [Worksheet: Computing with generalized morphisms](https://github.com/homalg-project/capdays-2018/blob/gh-pages/materials/Generalized%20morphisms.ipynb)
 
 * 14:00 - 17:00: *Implementing your own category*<br/>
 In this tutorial you will learn how to implement a basic category in CAP.
