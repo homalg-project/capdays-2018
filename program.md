@@ -94,6 +94,7 @@ In this tutorial you will learn how to implement a basic category in CAP.
 We will start by using preexistent data structures for finite groups in GAP to implement a CAP category.
 Afterwards, we will implement the abelian category of finite dimensional vector spaces over a constructive field
 in CAP.
+  * [GAP file for tutorial](/materials/session01/HandsOnExercise.gi)
 
 #### Coding Sprint in Room D-201
 
