@@ -2,6 +2,7 @@
 layout: page
 title: Participants
 ---
+[![Group photo]({{ site.baseurl }}/public/CapDaysThumb.JPG "Group photo")]({{ site.baseurl }}/public/CapDays.JPG)
 
 <ol>
 {% for p in site.data.participants %}
